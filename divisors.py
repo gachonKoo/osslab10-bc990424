@@ -3,6 +3,7 @@ import sys
 numbers = int(sys.argv[1])
 
 for i in range(numbers):
+  
   if number % i == 0:
     print(i,end=" ")
 
